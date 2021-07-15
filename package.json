@@ -1,0 +1,43 @@
+{
+  "name": "nfs-hot-juice",
+  "private": true,
+  "description": "Need for Speed: Hot Juice",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@emotion/react": "^11.1.4",
+    "@types/jest": "^26.0.20",
+    "babel-jest": "^27.0.6",
+    "babel-preset-gatsby": "^1.9.0",
+    "gatsby": "^3.9.1",
+    "gatsby-plugin-emotion": "^6.9.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-test-renderer": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.2",
+    "@types/react-helmet": "^6.1.2",
+    "prettier": "2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/levymetal/nfs-hot-juice"
+  },
+  "bugs": {
+    "url": "https://github.com/levymetal/nfs-hot-juice/issues"
+  }
+}
